@@ -21,7 +21,7 @@ class MathematicsTestCaseSum {
 		m.a = 3;
 		m.b = 4;
 		int result = m.product(m.a,  m.b);
-		assertEquals(result, 12);
+		assertEquals(result, 13);
 	}
 
 }

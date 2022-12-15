@@ -3,6 +3,7 @@ package maths;
 public class Mathematics {
 	
 	public static int a, b;
+	public static String choice;
 	
 	public static int sum(int a, int b) {
 		return a+b;
@@ -13,8 +14,8 @@ public class Mathematics {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
- 
+		
+		choice = args[1];
 	}
 
 }
